@@ -1,0 +1,61 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    overflow: hidden; /* Garante que nada saia do limite do header */
+}
+
+header img {
+    width: 100;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.7); /* Diminui o brilho da imagem para melhorar a legibilidade do texto */
+}
+
+#quote {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem; /* Aumentei o tamanho da fonte para maior legibilidade */
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px; /* Arredonda mais os cantos */
+    text-align: right;
+    width: 55%; /* Ajustei a largura para um pouco mais estreita */
+    line-height: 1.6; /* Maior espaçamento entre as linhas */
+    animation: fadeIn 2s ease-out; /* Animação de entrada suave para o texto */
+}
+
+/* Animação de fade-in para o texto */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#quote span {
+    display: block;
+    margin-top: 10px; /* Adiciona um pequeno espaço após a palavra "ele" para maior legibilidade */
+}
+
+@media (max-width: 768px) {
+    #quote {
+        font-size: 1rem; /* Reduz o tamanho da fonte em telas pequenas */
+        width: 80%; /* Aumenta a largura para ocupar mais espaço em dispositivos móveis */
+        padding: 15px; /* Ajusta o padding para dispositivos móveis */
+    }
+
+    header img {
+        width: 100%;
+        height: auto; /* Ajusta o comportamento da imagem para telas pequenas */
+    }
+}
