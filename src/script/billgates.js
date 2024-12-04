@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const quote = "O sucesso é um professor perverso. Ele seduz as pessoas inteligentes a pensar que elas não podem perder.";
+    const quote = "We always overestimate the change that will occur in the next two years and underestimate the change that will occur in the next ten. Don't let yourself be fooled into doing nothing.";
     const quoteElement = document.getElementById('quote');
     let index = 0;
     let deleting = false;
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         } else {
             if (index < quote.length) {
-                quoteElement.textContent += quote.charAt(index);
+                quoteElement.textContent = quote.slice(0, index + 1);
                 index++;
                 setTimeout(typeText, 50);
             } else {

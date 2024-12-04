@@ -50,7 +50,7 @@ body {
   }
   
   .ag-timeline-block {
-    padding: 300px 0;
+    padding: 100px 0;
   }
   .ag-timeline_title-box {
     padding: 0 0 30px;
@@ -62,7 +62,7 @@ body {
     color: rgb(84, 89, 95);
   }
   .ag-timeline_title {
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
+    background-color: rgb(221, 221, 221);
     background-repeat: no-repeat;
     background-position: 50% 50%;
   
