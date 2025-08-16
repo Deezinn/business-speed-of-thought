@@ -1,4 +1,5 @@
 import billGatesImage from '@/assets/bill_gates.webp';
+
 import { billGatesContext, iconOptions, optionsCategory } from '@/constants/const';
 import Image from 'next/image';
 import { ImBell, ImShare2 } from "react-icons/im";
@@ -13,6 +14,7 @@ export default function Home() {
           <h1 className="text-2xl">Creators page</h1>
         </div>
         <div className="flex flex-col items-center w-80 h-200 rounded-2xl shadow-md gap-6 p-10">
+
           <h1 className="text-4xl w-full ml-10">Category</h1>
           <div className="flex flex-col gap-3 w-full ml-10">
             {optionsCategory.map((opcoes, idx) => (
@@ -29,6 +31,7 @@ export default function Home() {
 
       {/* Coluna 2 */}
       <div className="flex flex-col w-full  justify-start items-start gap-5 p-10  h-auto rounded-2xl ">
+
         <h1 className="text-2xl p-4 rounded-lg">
           Bill Gates says "AI is the Next Great Revolution, Deal with It" at Ted Talks
         </h1>
@@ -42,6 +45,7 @@ export default function Home() {
             priority
           />
         </div>
+
 
         <div className="w-full h-auto flex flex-col prose max-w-full  shadow-md p-5 rounded-2xl gap-5">
           <div className='grid grid-cols-2 justify-between items-center text-center w-full h-10'>
@@ -111,6 +115,7 @@ export default function Home() {
           </div>
         ))}
       </div>
+
     </div>
   );
 }

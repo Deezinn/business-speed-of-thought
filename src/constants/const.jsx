@@ -1,4 +1,5 @@
 import { ImHome, ImVideoCamera, ImEyePlus } from "react-icons/im";
+
 import { ImBubble2, ImEye, ImShare2 } from "react-icons/im";
 
 import bill_inovates from "@/assets/bill_inovates.webp"
@@ -26,4 +27,4 @@ export const iconOptions = [
   {"icon": <ImEye />, "text": "2.5M"},
   {"icon": <ImBubble2 />, "text": "2.15K"},
   {"icon": <ImShare2 />, "text": "15K"},
-]
+
