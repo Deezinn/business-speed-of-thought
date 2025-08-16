@@ -20,7 +20,7 @@ export default function Navbar() {
         </div>
         <div className="flex justify-center items-center text-center w-1/2">
           <div className='flex flex-row bg-gray-100 justify-center items-center text-center rounded-2xl p-1'>
-            <input type="text" className='w-3/4' placeholder='Pesquise' />
+            <input type="text" className='w-3/4 focus:outline-none' placeholder='Pesquise' />
             <ImSearch className='text-gray-500' />
           </div>
         </div>
