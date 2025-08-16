@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Business at the Speed of Thought 💡
 
-## Getting Started
+🌍 [Acesse o site online](https://business-speed-of-thought.vercel.app/)  
 
-First, run the development server:
+Este projeto é um site inspirado no livro **_Business @ the Speed of Thought_** de Bill Gates.  
+A proposta é mostrar como a tecnologia e a informação podem transformar empresas, processos e a tomada de decisão em tempo real.  
 
+## 🚀 Tecnologias Utilizadas
+- [Next.js](https://nextjs.org/) — Framework React para front-end moderno  
+- [Tailwind CSS](https://tailwindcss.com/) — Estilização rápida e responsiva  
+- [Vercel](https://vercel.com/) — Deploy e hospedagem  
+
+## 📂 Estrutura do Projeto
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+business-speed-of-thought/
+├── .github/             # Configurações do GitHub
+├── .next/               # Build gerada pelo Next.js
+├── node_modules/        # Dependências instaladas
+├── public/              # Arquivos públicos
+├── src/
+│   ├── app/             # Páginas principais do projeto
+│   │   ├── favicon.ico
+│   │   ├── fonts.css
+│   │   ├── globals.css
+│   │   ├── layout.jsx
+│   │   └── page.jsx
+│   ├── assets/          # Imagens do projeto
+│   │   ├── bill_gates.webp
+│   │   ├── bill_inovates.webp
+│   │   ├── bill_mocks_ai.webp
+│   │   └── interview_with_bill.webp
+│   ├── components/      # Componentes reutilizáveis
+│   │   └── navbar.jsx
+│   └── constants/       # Constantes e variáveis globais
+│       └── const.jsx
+├── .gitignore
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── tailwind.config.js
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚡ Como Rodar Localmente
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/business-speed-of-thought.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd business-speed-of-thought
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Rode o servidor local:
+   ```bash
+   npm run dev
+   ```
+5. Abra [http://localhost:3000](http://localhost:3000) no navegador.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌎 Deploy
+O site está disponível em produção na Vercel:  
+👉 [business-speed-of-thought.vercel.app](https://business-speed-of-thought.vercel.app/)  
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📖 Inspiração
+O site é baseado nos conceitos apresentados no livro **Business @ the Speed of Thought**, que mostra como a tecnologia pode acelerar processos de negócios e gerar vantagem competitiva.  
