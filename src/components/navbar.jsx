@@ -4,7 +4,7 @@ import { ImSearch } from "react-icons/im";
 export default function Navbar() {
   return (
     <>
-      <div className="flex flex-row w-full h-16 justify-center">
+      <div className="flex flex-row w-full h-16 justify-center fixed bg-white z-10">
         <div className="flex justify-center items-center text-center w-1/2">
 
           <h1 className="uppercase font-bold oswald-500 text-xl">Bill Gates</h1>
