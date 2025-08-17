@@ -12,7 +12,7 @@ export const navbarOptions = [
 
 export const optionsCategory = [
   'Politics', 'National', 'International', 'Regulation', 'Business',
-  'Finance', 'Health Care', 'Technology', 'Jobs', 'kids'
+  'Finance', 'Health Care', 'Technology', 'Jobs', 'kids', 'preencher', 'preencher', 'preencher'
 ]
 
 export const billGatesContext = [
