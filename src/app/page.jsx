@@ -59,11 +59,11 @@ export default function Home() {
         <div className="w-full h-auto flex flex-col prose max-w-full shadow-md p-5 rounded-2xl gap-5">
 
           {/* Header do card */}
-          <div className="grid grid-cols-2 justify-between items-center text-center w-full h-10">
+          <div className="grid grid-cols-2 justify-evenly items-center text-center w-full h-10">
             <div className="flex bg-orange-100 w-2/5 rounded-full h-10 text-center justify-center items-center">
               <h1 className="text-orange-600 uppercase">Congress</h1>
             </div>
-            <div className="flex flex-row justify-evenly items-end gap-10">
+            <div className="flex flex-row justify-evenly items-end gap-5">
               {iconOptions.map((options, idx) => (
                 <div
                   key={idx}
@@ -83,7 +83,7 @@ export default function Home() {
                 untur inventore dolore ex quibusdam unde magnam provident quas sapiente dolorem modi assumenda eveniet qui!
               </p>
             </div>
-            <div className="flex flex-col w-1/2 justify-start items-end gap-5">
+            <div className="flex flex-col w-1/2 justify-center items-end gap-5">
               <div className="flex w-50 h-10 rounded-2xl bg-gray-200 justify-evenly text-center items-center cursor-pointer">
                 <ImBell />
                 <h1>Save to pocket</h1>
