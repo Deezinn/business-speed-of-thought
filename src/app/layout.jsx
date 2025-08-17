@@ -1,14 +1,13 @@
-import Navbar from "@/components/navbar";
-
-import "./fonts.css";
 import "./globals.css";
+import "./fonts.css";
 
+import Navbar from "@/components/navbar";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className="">
-        <Navbar/>
+      <body>
+        <Navbar />
         {children}
       </body>
     </html>
